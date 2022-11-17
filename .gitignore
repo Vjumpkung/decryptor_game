@@ -2,3 +2,4 @@ playground.ipynb
 *.pyc
 __pycache__/
 *.py[cod]
+.vscode/
