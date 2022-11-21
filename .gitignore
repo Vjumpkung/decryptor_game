@@ -3,3 +3,5 @@ playground.ipynb
 __pycache__/
 *.py[cod]
 .vscode/
+build/
+main.spec

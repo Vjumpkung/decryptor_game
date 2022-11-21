@@ -7,10 +7,14 @@
 ## วิธีการใช้งานโปรแกรม
 
 ```
-python main.py [group number (1 - 10)]
+python main.py
 ```
 
-กรอก เลขกลุ่มหลังจาก main.py
+กรอก เลขกลุ่ม
+
+```
+group name : 4
+```
 
 <hr>
 

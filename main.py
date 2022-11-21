@@ -1,5 +1,4 @@
 import tkinter as tk
-import sys
 from password_checker import check_password
 from problems import problems, get_challenge
 
@@ -162,5 +161,5 @@ if __name__ == "__main__":
     '''
         Main program goes here.
     '''
-    n = int(sys.argv[1])
+    n = int(input("group name : "))
     App(problems[n-1], n).mainloop()
