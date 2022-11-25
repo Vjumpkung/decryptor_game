@@ -1,8 +1,17 @@
 from random import randint
+from random import sample
+
+AtoZ = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+
+rng = sample(range(len(AtoZ)), len(AtoZ))
+
+
+def x():
+    return ''.join([AtoZ[rng[i]] for i in range(4)])
+
 
 # problems
-problems = ['KSPO', 'ETCJ', 'QRTZ', 'CPSK',
-            'HLUO', 'BEDV', 'DFOP', 'BHJK', 'RFID', 'LXAI']
+problems = [x() for i in range(10)]
 
 # after you can decrypt text
 challenge = ["ให้สมาชิกทุกคนทำท่าดอกไม้", "ถ่ายเซลฟี่กลุ่มให้เห็นทุกคน", "ยืนทำท่าตามตัวอักษรที่ได้รับ", "สมาชิกทุกคนทำรูปดาว", "ให้ทุกคนพูดชื่ออาหาร 1 อย่าง",

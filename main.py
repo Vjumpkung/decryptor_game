@@ -13,7 +13,7 @@ class App(tk.Tk):
         self.att = 3
 
         # Set title name and window size
-        self.title(f"Decrypt Game Group No. {self.group_no}")
+        self.title(f"Decrypt Game")
         self.geometry("720x550")
         self.resizable(0, 0)
 
