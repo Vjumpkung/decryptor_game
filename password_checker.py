@@ -1,10 +1,12 @@
 # A to Z character for shifting
 AtoZ = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
+# game1 = 7 , game2 = 10 , game3 = 13
+
 
 def shifter(txtt):
     # caesar shift
-    return ''.join(list(map(lambda x: AtoZ[(AtoZ.index(x) - 7) % len(AtoZ)], list(txtt))))
+    return ''.join(list(map(lambda x: AtoZ[(AtoZ.index(x) - 13) % len(AtoZ)], list(txtt))))
 
 
 def bit_counter(string):
