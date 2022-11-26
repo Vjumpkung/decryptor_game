@@ -1,6 +1,7 @@
 import tkinter as tk
 from password_checker import check_password
 from problems import problems, get_challenge
+from random import randint
 
 
 class App(tk.Tk):
@@ -161,5 +162,5 @@ if __name__ == "__main__":
     '''
         Main program goes here.
     '''
-    n = int(input("group name : "))
+    n = randint(1, 10)
     App(problems[n-1], n).mainloop()
